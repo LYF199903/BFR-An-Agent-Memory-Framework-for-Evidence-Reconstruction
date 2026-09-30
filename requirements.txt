@@ -1,0 +1,9 @@
+numpy>=1.24
+
+# Optional: denser FCA-MS coverage scoring. Without these packages the
+# hashed-BoW encoder in experiments/fca_real_locomo/encode_query.py is used.
+# sentence-transformers>=2.2.0
+# torch>=2.0
+
+# Optional: BM25 scoring. Without this package a local TF-IDF fallback is used.
+# rank-bm25>=0.2.2
